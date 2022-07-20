@@ -115,11 +115,19 @@ function displayMessage(message, revMessage) {
                     </pre>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <P>tHE cODE IS STRUCTURED IN TWO FUNCTIONS</P>
-                    <h5>getValue</h5>
-                    <p>Display an Alert to the page</p>
-                    <h5>getValue2</h5>
-                    <p>Displays a user entered message in a sweet alerts window</p>
+                    <P>The Code is structured in three functions</P>
+                    <h5>"getValue"</h5>
+                    <p>This is the control function. It takes the string from the
+                         input in the HTML page and gives it a variable name. It
+                          then passes that string to the logic function.</p>
+                    <h5>"reverse"</h5>
+                    <p>This function takes the values of the string and palces it
+                         into an arry with no spaces using a for loop and a regex.
+                        The arrys are then sent to the display function.</p>
+                    <h5>"displayMessage"</h5>
+                    <p>This function takes both arry's (forwards and backwards)
+                         are then converted to lower case and if they are the same
+                          it returns one message. And if they are not equal it returns another.</p>
                 </div>
             </div>
         </div>
